@@ -8,4 +8,3 @@ COPY --from=builder ./app/dist ./dist
 COPY package.json .
 ENV WEB_PORT=3002
 CMD [ "yarn", "start" ]
-
